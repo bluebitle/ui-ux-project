@@ -141,7 +141,7 @@ class TextArea extends PureComponent {
     columns={  [
         ...columns,
       {
-        title: '예외여부',
+        title: '예외여부1',
         dataIndex: 'th4',
         key: 'th4',
         type: 'select',
@@ -149,7 +149,7 @@ class TextArea extends PureComponent {
         ...this.getColumnProps('th4'),
       }, 
       {
-        title: '시작일자',
+        title: '시작일자2',
         dataIndex: 'th8',
         key: 'th8',
         type: 'date',
