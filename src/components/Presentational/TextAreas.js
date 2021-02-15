@@ -97,7 +97,7 @@ const temp =
 
 
 @connect( state => state )
-class TextArea extends PureComponent {
+class TextAreas extends PureComponent {
     static displayName = 'TextArea';
 
     constructor(props) {
@@ -177,7 +177,7 @@ class TextArea extends PureComponent {
     dataSource={ data } 
     bordered={ true } 
     loading={ false } 
-    theme={ 'KOLONHR'}
+    theme='KOLONHR'
     pagination={ true } 
     size='default' 
     title='' 
@@ -204,4 +204,4 @@ class TextArea extends PureComponent {
     }
 }
 
-export default TextArea;
+export default TextAreas;

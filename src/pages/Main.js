@@ -2,7 +2,7 @@ import React from 'react';
 import Layouts from './Layouts';
 import Container from './Container';
 import { DefaultTable, DefaultTextBox, DefaultTablehr} from "~components/Container";
-import { Collapse, Select, Text, TextEditor, TextArea, Button} from "~components/Presentational";
+import { Collapse, Select, Text, TextEditor, TextAreas, Button} from "~components/Presentational";
 
 const Main = () => {
 
@@ -14,7 +14,7 @@ const Main = () => {
                 <TextEditor/>
                 <br/>
                 <DefaultTablehr/>
-                <TextArea />
+                <TextAreas />
             </Container>
         </Layouts>
 

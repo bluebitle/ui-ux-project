@@ -5,3 +5,4 @@ export { default as Button } from './Button';
 export { default as TextEditor } from './TextEditor';
 export { default as Collapse } from './Collapse';
 export { default as TextArea } from './TextArea';
+export { default as TextAreas } from './TextAreas';

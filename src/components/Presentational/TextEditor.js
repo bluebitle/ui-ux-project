@@ -45,7 +45,7 @@ class TextEditor extends PureComponent {
         const redux = this.getReducer(this.props);
         const code = redux.text ||
             `<Table 
-    style={{with:'80%'}} 
+    style={{width:'80%'}} 
     columns={ columns } 
     dataSource={ data } 
     bordered={ true } 
